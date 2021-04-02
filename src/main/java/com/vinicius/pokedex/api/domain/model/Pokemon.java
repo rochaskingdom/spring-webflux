@@ -1,12 +1,14 @@
 package com.vinicius.pokedex.api.domain.model;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
+@Builder
 @Document
 @AllArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
