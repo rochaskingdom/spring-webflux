@@ -1,7 +1,7 @@
 package com.vinicius.pokedex.api;
 
 import com.vinicius.pokedex.api.domain.model.Pokemon;
-import com.vinicius.pokedex.api.repository.PokedexRepository;
+import com.vinicius.pokedex.api.domain.repository.PokedexRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

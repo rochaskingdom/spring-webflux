@@ -1,4 +1,4 @@
-package com.vinicius.pokedex.api.repository;
+package com.vinicius.pokedex.api.domain.repository;
 
 import com.vinicius.pokedex.api.domain.model.Pokemon;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
